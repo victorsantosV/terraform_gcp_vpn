@@ -37,3 +37,6 @@ variable "google_compute_route_dest_range" {
   default = "15.0.0.0/24"
 }
 # ================ VPN Port Config ================ #
+variable "google_compute_forwarding_rule_name_fr" {
+  default = "fr_esp"
+}
