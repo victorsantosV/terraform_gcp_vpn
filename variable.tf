@@ -29,10 +29,11 @@ variable "google_compute_network_name" {
 variable "google_compute_address" {
   default = "vpn-static-ip"
 }
-
+# ================ VPN Router ================ #
 variable "google_compute_route_name" {
   default = "route1"
 }
 variable "google_compute_route_dest_range" {
   default = "15.0.0.0/24"
 }
+# ================ VPN Port Config ================ #
